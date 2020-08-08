@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+	<!-- metadatos -->
+	<meta name="description" content="NextGenerationRoleplay [Una Nueva Vida]."/>
+	<meta name="keywords" content="GTA,SAMP,RP,SERVER"/>
+	<meta name="author" content="JonatanHN" />
+	<meta name="copyright" content="NEXTGENERATIONRP &COPY ~2020~ JonatanHN"/>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="NextGenerationRoleplay" />
+    <meta property="og:description" 
+  	content="Servidor Roleplay de Samp" />
+  	<meta property="og:image" content="https://nextgenerationrp.tk/assets/img/NextGeneration/cover.png" />
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/NextGeneration/profile.png">
+	<!-- title -->
+    <title>NextGenerationRp ~Welcome</title>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/80fa7714d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/img/Icons/WebFont/font-css/LineIcons.css">
+    <audio id="player" src="assets/music/theborn.mp3" loop></audio>
+  </head>
+  <body>
+    <div class="fondo">
+        <div class="music"> 
+         <button onclick="playmu()"
+         class="play-button" id="play">
+         <i class="far fa-play-circle cc"></i>
+         </button> 
+         <button onclick="pausemu()"
+         class="pause-button" id="pause">
+         <i class="far fa-pause-circle cc"></i>
+         </button>
+         <button onclick="document.getElementById('player').volume -= 0.1"
+         class="volumen">
+         <i class="fas fa-volume-down cc"></i>
+         </button>  
+         <button onclick="document.getElementById('player').volume += 0.1"
+         class="volumen">
+         <i class="fas fa-volume-up cc"></i>
+         </button> 
+        </div>
+    	<div class="nameserver">
+            <img src="assets/img/NextGeneration/default.png" class="logo-2" alt="">
+    		<p class="title" href="foro/"><img src="assets/img/NextGeneration/profile.png" class="logo" alt="Logo">NextGenerationRp</p>
+    		<div class="copyright">
+    			<p class="author">
+    				<i class="fas fa-copyright"></i>
+                    2020 Pagina con derechos de author reservados por: 	 
+    			</p>
+    			<div class="one">
+    				<a href="https://facebook.com/JonatanHN00">
+    					JonatanHN 
+    				</a>
+    				<i class="fas fa-check-circle"></i>
+    			</div>
+    			
+    		</div>
+    		<div class="botones">
+    		<a href="samp://nexgenerationsv.tk:7777">
+    			<button class="ip">
+    				<p class="sv">
+					<i class="fas fa-gamepad"></i> 
+    				Servidor
+    				</p>
+    			</button>
+    		</a>
+    		<a href="foro/">
+    			<button class="ip">
+    				<p class="sv">
+    				<i class="fas fa-users"></i> 
+    				Foro
+    				</p>
+    			</button>
+    		</a>
+    		</div>
+    	</div>
+    </div>
+    <script src="assets/js/music.js"></script>
+  </body>
+</html>

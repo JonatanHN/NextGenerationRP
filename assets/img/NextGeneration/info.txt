@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Changa-ExtraBold
+font link: https://www.fontsquirrel.com/fonts/changa
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+Slogan Font: Questrial-Regular.otf
+
+icon designer: Fabyano de Tiburi
+icon designer link: /fabyanotsp
+        
+
+fontColor: {"gradient-0":"#e2404b","gradient-1":"#222222"}
+bgColor: {"hex":"transparent"}
+iconColor: {"gradient-0":"#e2404b","gradient-1":"#222222"}
+sloganColor: {"hex":"#000000"}
+      
